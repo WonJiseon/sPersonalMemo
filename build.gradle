@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+
+repositories {
+    mavenCentral() // https://repo1.maven.org/maven2/
+}
+
+
+dependencies {
+    compile group: 'org.mybatis', name: 'mybatis', version: '3.4.1'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.39'
+    compile group: 'org.springframework', name: 'spring-context', version: '4.3.2.RELEASE'
+}
